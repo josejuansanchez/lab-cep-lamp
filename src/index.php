@@ -40,7 +40,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 		echo "</tr>\n";
 	}
 
-	mysqli_close($msqli);
+	mysqli_close($mysqli);
 	?>
 	</table>
 </div>

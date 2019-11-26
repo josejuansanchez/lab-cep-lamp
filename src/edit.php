@@ -47,7 +47,7 @@ mysqli_stmt_bind_result($stmt, $name, $age, $email);
 mysqli_stmt_fetch($stmt);
 mysqli_stmt_free_result($stmt);
 mysqli_stmt_close($stmt);
-mysqli_close($mysli);
+mysqli_close($mysqli);
 ?>
 
 <!DOCTYPE html>
